@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    char op;
+
+    puts("MENU\n\n1. Cadastra usuario\n2. Consulta usuario\n3. Remove usuario\n4. Sair\nOpcao: ");
+    op = getch();
+    printf("\nOpcao escolhida: ");
+    putchar(op);
+}
